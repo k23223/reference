@@ -2,11 +2,11 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - my-main
 
 jobs:
   build:
-    if: github.repository == 'jaywcjlove/reference'
+    if: github.repository == 'k23223/reference'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
